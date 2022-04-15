@@ -1,0 +1,3 @@
+Push 1;
+	Deneme dosyasının içine random olarak 100 sayı yazılıyor (Her sefersinde) ve bu sayılar içersinde bulunan bütün asal sayılar
+ASAL dosyasına yazılıyor
