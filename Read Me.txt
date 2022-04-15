@@ -20,3 +20,4 @@ dosyasına aktarıyor
 Push 4;
 	LabDersi_Dosya içi kodlar güncellendi.
 consol içinde bize öğrenci numarası istiyor ve öğrencinin ortalamasını consolda gösteriyor
+try catch içinde getMessage eklendi
