@@ -1,3 +1,11 @@
 Push 1;
+
+  *Test_8:
 	Deneme dosyasının içine random olarak 100 sayı yazılıyor (Her sefersinde) ve bu sayılar içersinde bulunan bütün asal sayılar
 ASAL dosyasına yazılıyor
+
+Push 2;
+	Test_8 yanına Test_9 dosyası eklendi.
+  *Test_9:
+	Daha önceden oluşturulmuş ve içi doldurulmuş Veri dosyasını içindeki sayıları tek ve çift olduğuna göre Tek ve Cift 
+dosyalarına yazılmasını sağlıyor
