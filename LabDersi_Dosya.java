@@ -6,6 +6,27 @@ public class LabDersi_Dosya {
 	
 	static int os = 0;
 	
+	public static void notSorgula() {
+		Scanner oku = null;
+		File f1 = new File("vize.txt");
+		Scanner scan = new Scanner(System.in);
+		System.out.println("öðrenci numarasý girin");
+		int num = scan.nextInt();
+		
+		try {
+			oku = new Scanner(f1);
+			while(oku.hasNext()) {
+				String s = oku.nextLine();
+				String []di = s.split(" "); 	//Her satýr bi dizi olarak tanýmladý  (boþluk gelene kadar 
+				if(di[0].equals(num + "")) {  // numarayý(int) String hale getirmek  (! arada boþluk olmýcak)
+					System.out.println(di[1]);
+				}	
+			}
+		}
+		catch(Exception e){
+			
+		}		
+	}
 	public static void main(String args []) throws FileNotFoundException {
 	
 		File ad = new File("ad.txt");
@@ -69,9 +90,12 @@ public class LabDersi_Dosya {
 						pp.println(i+ " " + a[i] + " " + v[i] + " " +g[i] + " " +((v[i]+(double)g[i]/2)));
 					}
 					pp.close();	
+					
+					notSorgula();
 		}
 		catch(Exception e){
 			System.out.println("HATA VAR !!");
 		}	
+		
 	}
 }

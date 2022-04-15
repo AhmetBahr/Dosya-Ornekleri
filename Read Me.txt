@@ -16,3 +16,7 @@ Push 3;
   *LabDersi_Dosya:
 	ad , vize , genel , içersinde karmaşık bir şekilde verilen 5 kişinin adı numarsı vizesi final notu ve ortalamsını sonuc 
 dosyasına aktarıyor
+
+Push 4;
+	LabDersi_Dosya içi kodlar güncellendi.
+consol içinde bize öğrenci numarası istiyor ve öğrencinin ortalamasını consolda gösteriyor
