@@ -9,3 +9,10 @@ Push 2;
   *Test_9:
 	Daha önceden oluşturulmuş ve içi doldurulmuş Veri dosyasını içindeki sayıları tek ve çift olduğuna göre Tek ve Cift 
 dosyalarına yazılmasını sağlıyor
+
+Push 3;
+	LabDersi_Dosya dosyası eklendi 
+
+  *LabDersi_Dosya:
+	ad , vize , genel , içersinde karmaşık bir şekilde verilen 5 kişinin adı numarsı vizesi final notu ve ortalamsını sonuc 
+dosyasına aktarıyor
